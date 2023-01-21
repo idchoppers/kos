@@ -1,2 +1,2 @@
 # kos
-M own simple OS
+My own simple OS
