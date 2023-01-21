@@ -1,4 +1,4 @@
-CC=x86_64-elf-gcc
+CC=gcc
 SHARED_FLAGS = -fno-builtin -O2 -nostdinc -nostdlib -ffreestanding -g -Wall -Wextra \
                -Werror -I. -I/home/ks/src/gnu-efi/inc -MMD -mno-red-zone -mcmodel=kernel -fno-pie
 CFLAGS = $(SHARED_FLAGS)

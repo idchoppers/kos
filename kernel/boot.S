@@ -116,7 +116,7 @@ _start64:
 	movw %ax, %gs
 	movw %ax, %ss
 
-	call efi_main
+	call kernel_main
 
 	cli
 	hlt
